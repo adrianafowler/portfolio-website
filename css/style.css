@@ -1,0 +1,71 @@
+
+/*colours: 
+primary colour: 30,58,80,1.0 (dark blue)
+secondary colour: 235,166,1,1.0 (yellow orange)
+
+colour for propInvest project: 
+primary colour: 225,221,24,1.0 (lime)
+secondary colour: 227,120,23,1.0 (orange)
+*/
+body {
+  background-color:#FFFFFF;
+  font-family: 'Caveat';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgb(30,58,80);
+
+}
+h1,h2,h3,h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-family: 'Pt Sans Narrow', sans-serif;
+  font-weight: 700;
+  font-size: 2.75em;
+}
+h2 {
+  font-family: 'Pt Sans Narrow', sans-serif;
+  font-weight: 700;
+  font-size: 2.25em;
+}
+h3 {
+  font-family: 'Pt Sans Narrow', sans-serif;
+  font-weight: 400;
+  font-size: 1.75em;
+}
+h4{
+  font-family: 'Caveat';
+  font-weight: 700;
+  font-size: 1.35em;
+}
+img {
+  width: 100%;
+}
+a {
+  color: rgb(235,166,1);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(235,166,1);
+}
+a:hover {
+    color: rgba(30,58,80,0.5);
+    text-decoration: underline;
+}
+a:active {
+  color: rgba(235,166,1,0.6);
+}
+a:hover,
+a:focus {
+  color: rgba(30,58,80,0.5);
+  text-decoration: underline;
+}
+
+
+
+
+
+
+  
+  

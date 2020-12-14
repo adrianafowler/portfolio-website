@@ -1,13 +1,16 @@
 
-/*colours: 
+/*colours:
 primary colour: rgb(30,58,80) (dark blue)
 secondary colour: rgb(235,166,1)(yellow orange)
 
-colour for propInvest project: 
+colour for propInvest project:
 primary colour: rgb(225,221,24,1.0) (lime)
 secondary colour: rgb(227,120,23) (orange)
 buttons: rgb(68,85,98)
 */
+* {
+  box-sizing: border-box;
+}
 body {
   background-color:#FFFFFF;
   font-family: 'Caveat';
@@ -64,34 +67,34 @@ a:focus {
 }
 
 .button {
-  display: inline-block; 
+  display: inline-block;
   background-color: rgb(30,58,80) ;
   color: rgb(255,255,255);
   font-family: 'Pt Sans Narrow', sans-serif;/*how to override link font color?*/
-  font-weight: 400; 
+  font-weight: 400;
   padding: 10px 20px;
   border-radius: 6px;
-  border: 1px solid rgb(30,58,80); 
-  transition: 0.2s opacity; 
+  border: 1px solid rgb(30,58,80);
+  transition: 0.2s opacity;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
-} 
+}
 .button.primary{
   color: #ffffffff
 }
 
 .button:hover {
-  opacity: 0.8; 
+  opacity: 0.8;
   text-decoration: none;
   color: rgb(255,255,255);
 }
 .button:active {
-  opacity: 0.8; 
+  opacity: 0.8;
   text-decoration: none;
   background-color: rgb(30,58,80);
   color: rgb(255,255,255);
   }
-  
+
   .button.contact {
     background-color: transparent;
     color: rgb(30,58,80);
@@ -108,7 +111,7 @@ a:focus {
       color: rgb(255,255,255);
       border: 1px solid rgb(30,58,80);
   }
-      
+
   #hero {
   }
   #projects {
@@ -125,17 +128,6 @@ a:focus {
   width: 100%;
   height: auto;
 }
+header {
 
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-  
+}

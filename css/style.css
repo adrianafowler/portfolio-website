@@ -59,7 +59,7 @@ a {
 }
 
 a:visited {
-  /*  color: rgb(235,166,1);*/
+  color: rgb(235,166,1);
 }
 
 a:hover {
@@ -82,7 +82,6 @@ a:focus {
   background-color: rgb(30, 58, 80);
   color: rgb(255, 255, 255);
   font-family: 'Pt Sans Narrow', sans-serif;
-  /*how to override link font color?*/
   font-weight: 400;
   padding: 10px 20px;
   border-radius: 6px;
@@ -123,6 +122,10 @@ a:focus {
   border: 1px solid rgb(30, 58, 80);
 }
 
+#projects .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
 #hero {
   background-color: rgb(235,166,1);
   background-image: url(img/projects/projects_1@2x.jpg); /*why it doesn't work?*/
@@ -131,7 +134,6 @@ a:focus {
   width: 100%;
 }
 
-
 #hero h1 {
   text-align: left;
   margin: 0;
@@ -139,9 +141,7 @@ a:focus {
 }
 #hero p {
   text-align: left;
-
 }
-#projects {}
 
 #contact {}
 
@@ -149,7 +149,14 @@ a:focus {
   text-align: left;
 }
 
-#forecast {}
+#process h1 {
+  display: inline-block;
+}
+#process h3 {
+  margin-left: 10px;
+  display: inline-block;
+}
+
 #strap {
   padding: 5px 0;
   text-align: center;
@@ -173,7 +180,6 @@ margin: 5px;
 }
 #strap span {
   font-family: 'Pt Sans Narrow', sans-serif;
-
 }
 
 picture {
@@ -189,11 +195,6 @@ picture {
 
 .row {
   margin: 25px 0;
-}
-
-#projects .row {
-  padding-bottom: 25px;
-  border-bottom: 1px solid #4a4a4a;
 }
 
 .center {
@@ -232,9 +233,9 @@ nav>ul>li>a {
   font-weight: 400;
 }
 
-/*nav > ul > li > a:visited {
+nav > ul > li > a:visited {
   color: #ffffff;
-}*/
+}
 nav>ul>li>a:hover {
   text-decoration: none;
   color: rgba(235, 166, 1, 0.8);

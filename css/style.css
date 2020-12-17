@@ -1,4 +1,3 @@
-
 /*colours:
 primary colour: rgb(30,58,80) (dark blue)
 secondary colour: rgb(235,166,1)(yellow orange)
@@ -11,123 +10,237 @@ buttons: rgb(68,85,98)
 * {
   box-sizing: border-box;
 }
+
 body {
-  background-color:#FFFFFF;
+
+  background-color: #FFFFFF;
   font-family: 'Caveat';
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
-  color: rgb(30,58,80);
-
+  color: rgb(30, 58, 80);
 }
-h1,h2,h3,h4 {
+
+h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 h1 {
   font-family: 'Pt Sans Narrow', sans-serif;
   font-weight: 700;
   font-size: 2.75em;
 }
+
 h2 {
   font-family: 'Pt Sans Narrow', sans-serif;
   font-weight: 700;
   font-size: 2.25em;
 }
+
 h3 {
   font-family: 'Pt Sans Narrow', sans-serif;
   font-weight: 400;
   font-size: 1.75em;
 }
-h4{
+
+h4 {
   font-family: 'Caveat';
   font-weight: 700;
   font-size: 1.35em;
 }
+
 img {
   width: 100%;
 }
+
 a {
-  color: rgb(235,166,1);
   text-decoration: none;
+  color: rgb(235, 166, 1);
 }
+
 a:visited {
-  color: rgb(235,166,1);
+  /*  color: rgb(235,166,1);*/
 }
+
 a:hover {
-    color: rgba(30,58,80,0.5);
-    text-decoration: underline;
+  color: rgba(30, 58, 80, 0.5);
+  text-decoration: underline;
 }
+
 a:active {
-  color: rgba(235,166,1,0.6);
+  color: rgba(235, 166, 1, 0.6);
 }
+
 a:hover,
 a:focus {
-  color: rgba(30,58,80,0.5);
+  color: rgba(30, 58, 80, 0.5);
   text-decoration: underline;
 }
 
 .button {
   display: inline-block;
-  background-color: rgb(30,58,80) ;
-  color: rgb(255,255,255);
-  font-family: 'Pt Sans Narrow', sans-serif;/*how to override link font color?*/
+  background-color: rgb(30, 58, 80);
+  color: rgb(255, 255, 255);
+  font-family: 'Pt Sans Narrow', sans-serif;
+  /*how to override link font color?*/
   font-weight: 400;
   padding: 10px 20px;
   border-radius: 6px;
-  border: 1px solid rgb(30,58,80);
+  border: 1px solid rgb(30, 58, 80);
   transition: 0.2s opacity;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
-}
-.button.primary{
-  color: #ffffffff
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .button:hover {
   opacity: 0.8;
   text-decoration: none;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
 }
+
 .button:active {
   opacity: 0.8;
   text-decoration: none;
-  background-color: rgb(30,58,80);
-  color: rgb(255,255,255);
-  }
+  background-color: rgb(30, 58, 80);
+  color: rgb(255, 255, 255);
+}
 
-  .button.contact {
-    background-color: transparent;
-    color: rgb(30,58,80);
-    text-transform: uppercase;
-    border: 1px solid rgb(30,58,80);
-  }
-  .button.contact:hover {
-    background-color: rgb(30,58,80);
-    color: rgb(255,255,255);
-    border: 1px solid rgb(30,58,80);
-  }
-  .button.contact:active {
-      background-color: rgb(30,58,80);
-      color: rgb(255,255,255);
-      border: 1px solid rgb(30,58,80);
-  }
+.button.contact {
+  background-color: transparent;
+  color: rgb(30, 58, 80);
+  text-transform: uppercase;
+  border: 1px solid rgb(30, 58, 80);
+}
 
-  #hero {
-  }
-  #projects {
-  }
-  #contact {
-  }
- #index {
- }
- #about {
- }
- #forecast {
- }
- picture {
+.button.contact:hover {
+  background-color: rgb(30, 58, 80);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(30, 58, 80);
+}
+
+.button.contact:active {
+  background-color: rgb(30, 58, 80);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(30, 58, 80);
+}
+
+#hero {
+  background-color: rgb(235,166,1);
+  background-image: url(img/projects/projects_1@2x.jpg); /*why it doesn't work?*/
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+
+#hero h1 {
+  text-align: left;
+  margin: 0;
+  padding: 0.67em 0;
+}
+#hero p {
+  text-align: left;
+
+}
+#projects {}
+
+#contact {}
+
+#about h2 {
+  text-align: left;
+}
+
+#forecast {}
+#strap {
+  padding: 5px 0;
+  text-align: center;
+  color: rgb(235,166,1);
+}
+
+#strap ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+#strap li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+#strap h3 {
+margin: 5px;
+
+}
+#strap span {
+  font-family: 'Pt Sans Narrow', sans-serif;
+
+}
+
+picture {
   width: 100%;
   height: auto;
 }
-header {
 
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#projects .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+header {
+  background-color: #1C3245;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Pt Sans Narrow', sans-serif;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/*nav > ul > li > a:visited {
+  color: #ffffff;
+}*/
+nav>ul>li>a:hover {
+  text-decoration: none;
+  color: rgba(235, 166, 1, 0.8);
+}
+
+nav>ul>li>a:active {
+  text-decoration: none;
+  color: rgba(235, 166, 1, 0.8);
 }

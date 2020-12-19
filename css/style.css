@@ -12,7 +12,6 @@ buttons: rgb(68,85,98)
 }
 
 body {
-
   background-color: #FFFFFF;
   font-family: 'Caveat';
   font-size: 16px;
@@ -59,7 +58,7 @@ a {
 }
 
 a:visited {
-  color: rgb(235,166,1);
+  /*color: rgb(235,166,1);*/
 }
 
 a:hover {
@@ -122,25 +121,46 @@ a:focus {
   border: 1px solid rgb(30, 58, 80);
 }
 
+#projects h2 {
+  text-align: center;
+  font-family: 'Pt Sans Narrow', sans-serif;
+  font-weight: 400;
+}
+
 #projects .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
 }
+
 #hero {
-  background-color: rgb(235,166,1);
-  background-image: url(img/projects/projects_1@2x.jpg); /*why it doesn't work?*/
+  background-image: url('../img/projects/projects_1@2x.jpg');
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  background-color: rgb(350, 350, 350);
   padding: 20px 0;
   display: inline-block;
   width: 100%;
 }
 
+#hero .box {
+  background-color: rgba(350, 350, 350, 0.5);
+  padding-bottom: 20px
+}
+
 #hero h1 {
+  font-family: 'Pt Sans Narrow', sans-serif;
+  font-weight: 400;
   text-align: left;
   margin: 0;
   padding: 0.67em 0;
 }
+
 #hero p {
   text-align: left;
+  font-weight: 700px;
 }
 
 #contact {}
@@ -152,6 +172,7 @@ a:focus {
 #process h1 {
   display: inline-block;
 }
+
 #process h3 {
   margin-left: 10px;
   display: inline-block;
@@ -160,7 +181,7 @@ a:focus {
 #strap {
   padding: 5px 0;
   text-align: center;
-  color: rgb(235,166,1);
+  color: rgb(235, 166, 1);
 }
 
 #strap ul {
@@ -175,9 +196,9 @@ a:focus {
 }
 
 #strap h3 {
-margin: 5px;
-
+  margin: 5px;
 }
+
 #strap span {
   font-family: 'Pt Sans Narrow', sans-serif;
 }
@@ -186,7 +207,6 @@ picture {
   width: 100%;
   height: auto;
 }
-
 
 /* Layout styling */
 .container {
@@ -218,6 +238,7 @@ nav {
   display: inline-block;
   width: 100%;
 }
+
 nav>ul {
   list-style-type: none;
   padding: 0;
@@ -233,15 +254,16 @@ nav>ul>li>a {
   font-weight: 400;
 }
 
-nav > ul > li > a:visited {
+nav>ul>li>a:visited {
   color: #ffffff;
 }
+
 nav>ul>li>a:hover {
   text-decoration: none;
-  color: rgba(235, 166, 1, 0.8);
+  color: rgba(350, 350, 350, 0.8);
 }
 
 nav>ul>li>a:active {
   text-decoration: none;
-  color: rgba(235, 166, 1, 0.8);
+  color: rgba(350, 350, 350, 0.8);
 }

@@ -28,6 +28,7 @@ h1 {
   font-family: 'Pt Sans Narrow', sans-serif;
   font-weight: 700;
   font-size: 2.75em;
+  text-align: center;
 }
 
 h2 {
@@ -153,7 +154,7 @@ a:focus {
 #hero h1 {
   font-family: 'Pt Sans Narrow', sans-serif;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
   margin: 0;
   padding: 0.67em 0;
 }

@@ -303,6 +303,16 @@ nav>ul>li>a:active {
   color: rgba(350, 350, 350, 0.8);
 }
 
+@media only screen and (max-width: 639px) {
+
+.center-container {
+  text-align: center;
+  float: none;
+}
+
+
+}
+
 
 @media only screen and (min-width: 640px) {
 
@@ -311,6 +321,7 @@ nav>ul>li>a:active {
   width: auto;
   padding: 20px 0 13px;
   }
+
   nav {
     width: auto;
     float: right;

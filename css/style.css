@@ -123,13 +123,13 @@ a:focus {
   border: 1px solid rgb(30, 58, 80);
 }
 
-#projects h2 {
+.projects h2 {
   text-align: center;
   font-family: 'Pt Sans Narrow', sans-serif;
   font-weight: 400;
 }
 
-#projects .row {
+.projects .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
 }
@@ -168,13 +168,28 @@ a:focus {
   display: block;
 }
 
-#contact {}
+#contact {
+  text-align: center;
+  font-family: 'Pt Sans Narrow', sans-serif;
+}
 
 #about h2 {
   text-align: center;
+
 }
 #about h3 {
   text-align: center;
+}
+#about h4{
+  margin-left: 20px;
+  font-family: 'Pt Sans Narrow', sans-serif;
+}
+
+}
+#about .profileImg {
+  width:200px;
+  height: auto;
+
 }
 
 #process h1 {
@@ -418,11 +433,11 @@ nav>ul>li>a:active {
 
 
 /*added from codepen*/
-div.container a
+nav a
 {
     color: #FFF;
     text-decoration: none;
-    font: 20px 'Pt Sans Narrow', sans-serif;
+    font: 'Pt Sans Narrow', sans-serif;
     margin: 0px 10px;
     padding: 10px 10px;
     position: relative;
@@ -432,7 +447,8 @@ div.container a
 
 
 /* Border from Y to X  */
-div.borderYtoX a:before, div.borderYtoX a:after
+nav a:before,
+nav a:after
 {
     position: absolute;
     opacity: 0.5;
@@ -455,9 +471,53 @@ div.borderYtoX a:after
     bottom: 0px;
 }
 
-div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
+div.borderYtoX a:hover:before,
+div.borderYtoX a:hover:after
 {
     opacity: 1;
     height: 2px;
     width: 100%;
+}
+.social-icons svg {
+  width: 40px;
+  height: auto;
+  margin: 0.55em 0.55em;
+}
+
+.projects img {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+}
+
+img.logo {
+  width: 150px;
+  height: auto;
+
+}
+.center-me {
+  text-align: center;
+}
+.about-page p {
+  margin-left:50px;
+  margin-right: 50px;
+  font-family: 'Pt Sans Narrow', sans-serif;
+  font-weight: 400;
+}
+
+.about-columns {
+  width: 75%;
+  margin: 0 auto;
+  font-family: 'Pt Sans Narrow', sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+
+}
+
+.profileImg {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+
 }

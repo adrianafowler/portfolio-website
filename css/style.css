@@ -167,6 +167,7 @@ a:focus {
 }
 #hero span {
   display: block;
+  font-size: 24px;
 }
 #hero .box .container p {
   margin-left: 1em;
@@ -260,6 +261,9 @@ a:focus {
   top:0px;
 }
 
+#propinvestIntro {
+  margin-top: 150px;
+}
 picture {
   width: 100%;
   height: auto;
@@ -530,7 +534,6 @@ nav a:hover:after
 
 
 
-
 .social-icons svg {
   width: 40px;
   height: auto;
@@ -542,7 +545,10 @@ nav a:hover:after
   width: 300px;
   height: auto;
 }
-
+.projects .row {
+  margin-top: 100px;
+  margin-bottom: 10px
+}
 img.logo {
   width: 150px;
   height: auto;

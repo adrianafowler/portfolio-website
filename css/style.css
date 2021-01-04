@@ -58,6 +58,7 @@ a {
   color: rgb(235, 166, 1);
 }
 
+
 a:visited {
   /*color: rgb(235,166,1);*/
 }
@@ -142,7 +143,7 @@ a:focus {
   /* Do not repeat the image */
   background-size: cover;
   background-color: rgb(350, 350, 350);
-  padding: 20px 0;
+  padding: 137px 0px;
   display: inline-block;
   width: 100%;
 }
@@ -167,6 +168,12 @@ a:focus {
 #hero span {
   display: block;
 }
+#hero .box .container p {
+  margin-left: 1em;
+  text-align: center;
+
+}
+
 
 #contact {
   text-align: center;
@@ -187,11 +194,23 @@ a:focus {
 
 }
 #about .profileImg {
-  width:200px;
+
+  width: 200px;
   height: auto;
 
 }
+.profileImg {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
 
+}
+
+#about .profileImg {
+    margin-top: 172px;
+
+}
 #process h1 {
   display: inline-block;
 }
@@ -225,13 +244,22 @@ a:focus {
 #strap span {
   font-family: 'Pt Sans Narrow', sans-serif;
 }
+
+#forecastintro {
+  margin-top: 170px;
+}
 #forecastintro span{
   display: block;
+  font-weight: 400;
+  font-size: 0.75em;
 }
-#flashcardsintro span {
-    display: block;
+#forecastintro p {
+  text-align: center;
+}
+#forecast header {
+  top:0px;
+}
 
-}
 picture {
   width: 100%;
   height: auto;
@@ -265,7 +293,10 @@ header {
   padding: 10px 0;
   font-family: 'Pt Sans Narrow', sans-serif;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  position: relative;
+  right: 0px;
+  left: 0px;
+  top:0px;
+  position: fixed;
 }
 
 nav {
@@ -309,6 +340,9 @@ nav>ul>li>a:active {
   text-align: center;
   float: none;
 }
+  ul {
+  list-style-type: none;
+}
 
 
 }
@@ -340,7 +374,7 @@ nav>ul>li>a:active {
 @media only screen and (min-width: 1024px) {
 
 .col-lg-7 {
-  width: 58%
+  /*width: 58%*/
 
 }
 .col-lg-5 {
@@ -371,6 +405,9 @@ nav>ul>li>a:active {
 }
 [class*="col-"] {
   float: left;
+}
+#forecast [class*="col-"] {
+  padding-right: 30px;
 }
 
 
@@ -449,6 +486,7 @@ nav a
     color: #FFF;
     text-decoration: none;
     font: 'Pt Sans Narrow', sans-serif;
+    font-size: 16px;
     margin: 0px 10px;
     padding: 10px 10px;
     position: relative;
@@ -470,25 +508,29 @@ nav a:after
     transition: all 0.3s;
 }
 
-div.borderYtoX a:before
+nav a:before
 {
     left: 0px;
     top: 0px;
 }
 
-div.borderYtoX a:after
+nav a:after
 {
     right: 0px;
     bottom: 0px;
 }
 
-div.borderYtoX a:hover:before,
-div.borderYtoX a:hover:after
+nav a:hover:before,
+nav a:hover:after
 {
     opacity: 1;
     height: 2px;
     width: 100%;
 }
+
+
+
+
 .social-icons svg {
   width: 40px;
   height: auto;
@@ -509,6 +551,7 @@ img.logo {
 .center-me {
   text-align: center;
 }
+
 .about-page p {
   margin-left:50px;
   margin-right: 50px;
@@ -525,10 +568,10 @@ img.logo {
 
 }
 
-.profileImg {
-  max-width: 100%;
-  width: 300px;
-  height: auto;
-  margin-top: 20px;
 
+.forecast-logo {
+  text-align: center;
+}
+.forecast-logo svg {
+  margin-top: 80px;
 }

@@ -222,28 +222,33 @@ a:focus {
 }
 
 #strap {
-  padding: 5px 0;
+  padding: 15px 0;
   text-align: center;
   color: rgb(235, 166, 1);
 }
 
 #strap ul {
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
   width: 100%;
 }
 
 #strap li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 40px 40px;
+  margin-top: 10px
 }
 
+
+
 #strap h3 {
-  margin: 5px;
+  margin: 2px;
+  font-size: 36px
 }
 
 #strap span {
   font-family: 'Pt Sans Narrow', sans-serif;
+  font-size: 24px;
 }
 
 #forecastintro {
@@ -264,6 +269,36 @@ a:focus {
 #propinvestIntro {
   margin-top: 150px;
 }
+#propinvestIntro h1 {
+  margin-bottom: 0px;
+}
+
+#propinvestIntro h3 {
+  text-align: center;
+  font-size: 24;
+  margin-top: 0;
+}
+
+#flashcards .flashcardsIntro {
+  margin-top: 180px;
+}
+#flashcards .flashcardsIntro p{
+  font-size: 21px;
+
+}
+#flashcards .flashcardsIntro span{
+display: block;
+font-size: 32px;
+font-family: 'Pt Sans Narrow', sans-serif;
+
+
+}
+#flashcards .flashcardsIntro h1{
+margin-bottom: 0;
+
+}
+
+
 picture {
   width: 100%;
   height: auto;
@@ -410,7 +445,7 @@ nav>ul>li>a:active {
 [class*="col-"] {
   float: left;
 }
-#forecast [class*="col-"] {
+[class*="col-"] {
   padding-right: 30px;
 }
 
@@ -457,7 +492,6 @@ nav>ul>li>a:active {
 }
 
 .rotate {
-
   animation-duration: 5s;
   animation-name: move;
   animation-iteration-count: infinite;
@@ -577,7 +611,10 @@ img.logo {
 
 .forecast-logo {
   text-align: center;
+
 }
 .forecast-logo svg {
-  margin-top: 80px;
+  margin-top: 70px;
+  width: 70%;
+  height: auto;
 }

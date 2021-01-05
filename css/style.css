@@ -381,6 +381,7 @@ nav>ul>li>a:active {
 }
   ul {
   list-style-type: none;
+  padding-left: 0px
 }
 
 
@@ -487,18 +488,18 @@ nav>ul>li>a:active {
 
 
 
-@keyframes move {
-  50% {transform: rotate(10deg);}
-}
 
-.rotate {
+
+
+
+/*.rotate {
   animation-duration: 5s;
-  animation-name: move;
+  animation-name: rotateobject;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
 
-}
+}*/
 
   }
   @keyframes makebigger   {

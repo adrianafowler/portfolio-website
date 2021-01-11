@@ -13,15 +13,19 @@ buttons: rgb(68,85,98)
 
 body {
   background-color: #FFFFFF;
-  font-family: /*'Caveat';*/ 'PT Sans', sans-serif;
+  font-family:
+    /*'Caveat';*/
+    'PT Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
   color: rgb(30, 58, 80);
 }
-main{
+
+main {
   padding-top: 56px;
 }
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
@@ -60,8 +64,6 @@ a {
   color: #fff;
 }
 
-
-
 a:hover {
   color: rgba(30, 58, 80, 0.5);
   text-decoration: underline;
@@ -88,7 +90,6 @@ a:focus {
   border: 1px solid rgb(30, 58, 80);
   transition: 0.2s opacity;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .button:hover {
@@ -164,56 +165,52 @@ a:focus {
   text-align: left;
   font-weight: 700px;
 }
+
 #hero span {
   display: block;
   font-size: 24px;
 }
+
 #hero .box .container p {
   margin-left: 1em;
   text-align: center;
-
 }
-
 
 #contact {
   text-align: center;
   font-family: 'Pt Sans Narrow', sans-serif;
 }
-#contact a {
-  color: rgb(235,166,1);
-}
 
+#contact a {
+  color: rgb(235, 166, 1);
+}
 
 #about h2 {
   text-align: center;
-
 }
+
 #about h3 {
   text-align: center;
 }
-#about h4{
+
+#about h4 {
   margin-left: 20px;
   font-family: 'Pt Sans Narrow', sans-serif;
 }
 
-
 #about .profileImg {
-
   width: 200px;
   height: auto;
-
 }
+
 .profileImg {
   max-width: 100%;
   width: 300px;
   height: auto;
   margin-top: 56px
-
+}
 }
 
-
-
-}
 #process h1 {
   display: inline-block;
 }
@@ -241,8 +238,6 @@ a:focus {
   margin-top: 10px
 }
 
-
-
 #strap h3 {
   margin: 2px;
   font-size: 36px
@@ -256,21 +251,25 @@ a:focus {
 #forecastintro {
   margin-top: 64px;
 }
-#forecastintro span{
+
+#forecastintro span {
   display: block;
   font-weight: 400;
   font-size: 0.75em;
 }
+
 #forecastintro p {
   text-align: center;
 }
+
 #forecast header {
-  top:0px;
+  top: 0px;
 }
 
 #propinvestIntro {
   margin-top: 64px;
 }
+
 #propinvestIntro h1 {
   margin-bottom: 0px;
 }
@@ -284,22 +283,20 @@ a:focus {
 #flashcards .flashcardsIntro {
   margin-top: 180px;
 }
-#flashcards .flashcardsIntro p{
+
+#flashcards .flashcardsIntro p {
   font-size: 21px;
-
-}
-#flashcards .flashcardsIntro span{
-display: block;
-font-size: 32px;
-font-family: 'Pt Sans Narrow', sans-serif;
-
-
-}
-#flashcards .flashcardsIntro h1{
-margin-bottom: 0;
-
 }
 
+#flashcards .flashcardsIntro span {
+  display: block;
+  font-size: 32px;
+  font-family: 'Pt Sans Narrow', sans-serif;
+}
+
+#flashcards .flashcardsIntro h1 {
+  margin-bottom: 0;
+}
 
 picture {
   width: 100%;
@@ -314,8 +311,9 @@ picture {
 .row {
   margin: 25px 0;
 }
+
 .row::after {
-  content:"";
+  content: "";
   clear: both;
   display: table;
 }
@@ -323,10 +321,6 @@ picture {
 .center {
   text-align: center;
 }
-
-
-
-
 
 header {
   background-color: #1C3245;
@@ -336,19 +330,15 @@ header {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   right: 0px;
   left: 0px;
-  top:0px;
+  top: 0px;
   position: fixed;
 }
-
-
 
 nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
-
 
 nav>ul>li>a {
   padding: 0 15px;
@@ -373,9 +363,11 @@ nav>ul>li>a:active {
 .navtoggle li:not(:last-child) {
   display: none;
 }
+
 .navtoggle, .navtoggle.responsive {
-  position :relative;
+  position: relative;
 }
+
 .navtoggle li .icon {
   position: absolute;
   right: 0;
@@ -387,46 +379,40 @@ nav>ul>li>a:active {
 .navtoggle.responsive nav {
   padding: 10px 0 10px 0;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   text-align: center;
-  border-top: 0.2px solid rgba(235,166,1,0.1);
+  border-top: 0.2px solid rgba(235, 166, 1, 0.1);
   padding: 10px 0;
   color: #fff;
 }
 
-
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
-
 }
 
 #myNavtoggle i {
   color: #fff;
 }
 
-
-
 @media only screen and (max-width: 640px) {
-
   .col-sm-12 {
     width: 100%;
   }
 
-.center-container {
-  text-align: center;
-  float: none;
-}
+  .center-container {
+    text-align: center;
+    float: none;
+  }
+
   ul {
-  list-style-type: none;
-  padding-left: 0px
+    list-style-type: none;
+    padding-left: 0px
+  }
 }
-
-}
-
 
 @media only screen and (min-width: 641px) {
-
   [class*="col-"] {
     padding-right: 30px;
   }
@@ -438,148 +424,134 @@ nav>ul>li>a:active {
   .col-md-6 {
     width: 50%;
   }
+
   #about .col-md-4 {
     text-align: left;
   }
 
   header {
-  text-align: unset;
-  width: auto;
-  padding: 20px 0 13px;
+    text-align: unset;
+    width: auto;
+    padding: 20px 0 13px;
   }
 
   nav {
-  width: auto;
-  float: right;
-  margin-top: 4px;
+    width: auto;
+    float: right;
+    margin-top: 4px;
   }
 
-  nav > ul {
-  margin: 1em 0;
+  nav>ul {
+    margin: 1em 0;
   }
+
   nav>ul>li {
-      display: inline-block;
-    }
+    display: inline-block;
+  }
 
   nav a {
-        color: #FFF;
-        text-decoration: none;
-        font: 'Pt Sans Narrow', sans-serif;
-        font-size: 16px;
-        margin: 0px 10px;
-        padding: 10px 10px;
-        position: relative;
-        z-index: 0;
-        cursor: pointer;
-    }
+    color: #FFF;
+    text-decoration: none;
+    font: 'Pt Sans Narrow', sans-serif;
+    font-size: 16px;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+  }
 
+  /* Border from Y to X  */
+  nav a:before,
+  nav a:after {
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+  }
 
-    /* Border from Y to X  */
-    nav a:before,
-    nav a:after   {
+  nav a:before {
+    left: 0px;
+    top: 0px;
+  }
 
-        position: absolute;
-        opacity: 0.5;
-        height: 100%;
-        width: 2px;
-        content: '';
-        background: #FFF;
-        transition: all 0.3s;
-    }
+  nav a:after {
+    right: 0px;
+    bottom: 0px;
+  }
 
-    nav a:before {
+  nav a:hover:before,
+  nav a:hover:after {
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+  }
 
-        left: 0px;
-        top: 0px;
-    }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
 
-    nav a:after {
-
-        right: 0px;
-        bottom: 0px;
-    }
-
-    nav a:hover:before,
-    nav a:hover:after {
-
-        opacity: 1;
-        height: 2px;
-        width: 100%;
-    }
-
-
-.navtoggle li:not(:last-child) {
-  display: inline-block;
+  .navtoggle li:last-child {
+    display: none;
+  }
 }
-
-.navtoggle li:last-child {
-  display: none;
-}
-
-}
-
-
 
 @media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+    width: 58%;
+  }
 
-.col-lg-7 {
-  /*width: 58%*/
+  .col-lg-5 {
+    width: 42%;
+  }
 
+  body {
+    font-size: 1.1em;
+  }
 }
-.col-lg-5 {
-  width: 42%;
-}
-body {
-  font-size: 1.1em;
-
-}
-
-}
-
-
-
 
 @media only screen and (min-width: 1440px) {
-
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  body {
+    font-size: 1.2em;
+  }
 }
 
-body {
-  font-size: 1.2em;
-
-}
-
-}
 @media only screen and (min-width: 1920px) {
-
-
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  body {
+    font-size: 1.3em;
+  }
 }
-body{
-  font-size: 1.3em;
-}
-}
+
 [class*="col-"] {
   float: left;
 }
 
-
-
-
-
-
 /*transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay]*/
-
 @keyframes color-change {
-  from {fill: yellow;}
-  to {fill: orange;}
+  from {
+    fill: yellow;
+  }
+
+  to {
+    fill: orange;
+  }
 }
+
 .sun {
   animation-duration: 4s;
   animation-name: color-change;
@@ -587,10 +559,17 @@ body{
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
+
 .cloud-front {
   animation-duration: 30s;
   animation-name: cloud-move;
@@ -598,19 +577,20 @@ body{
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
+
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
-
-
-
-
-
-
 
 /*.rotate {
   animation-duration: 5s;
@@ -620,33 +600,26 @@ body{
   animation-timing-function: linear;
 
 }*/
-
-
-  @keyframes makebigger   {
-  100% {transform: scale(1.1,1.1);}
+@keyframes makebigger {
+  100% {
+    transform: scale(1.1, 1.1);
   }
-
-  .scaleup {
-    animation-duration: 2s;
-    animation-name: makebigger;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-
-  }
-
-
 }
 
-
-
-
-
+.scaleup {
+  animation-duration: 2s;
+  animation-name: makebigger;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+}
 
 .social-icons svg {
   width: 40px;
   height: auto;
   margin: 0.55em 0.55em;
+  display: inline-block;
 }
 
 .projects img {
@@ -654,6 +627,7 @@ body{
   width: 300px;
   height: auto;
 }
+
 .projects .row {
   margin-top: 100px;
   margin-bottom: 10px
@@ -670,7 +644,7 @@ body{
 }
 
 .about-page p {
-  margin-left:50px;
+  margin-left: 50px;
   margin-right: 50px;
   font-family: 'Pt Sans Regular 400', sans-serif;
 }
@@ -680,14 +654,12 @@ body{
   margin: 0 auto;
   font-family: 'Pt Sans Regular 400', sans-serif;
   margin-top: 20px;
-
 }
-
 
 .forecast-logo {
   text-align: center;
-
 }
+
 .forecast-logo svg {
   margin-top: 70px;
   width: 70%;

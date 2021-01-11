@@ -421,10 +421,15 @@ nav>ul>li>a:active {
   list-style-type: none;
   padding-left: 0px
 }
+
 }
 
 
 @media only screen and (min-width: 641px) {
+
+  [class*="col-"] {
+    padding-right: 30px;
+  }
 
   .col-md-4 {
     width: 33.33%;
@@ -432,6 +437,9 @@ nav>ul>li>a:active {
 
   .col-md-6 {
     width: 50%;
+  }
+  #about .col-md-4 {
+    text-align: left;
   }
 
   header {
@@ -560,9 +568,7 @@ body{
 [class*="col-"] {
   float: left;
 }
-[class*="col-"] {
-  padding-right: 30px;
-}
+
 
 
 

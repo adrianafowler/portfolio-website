@@ -4,37 +4,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Forecast for Parents</title>
+  <title>Forecast</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" >
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" type="image/png" href="img/favicons/favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/93f2d3b725.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="forecast">
+
   <header>
 
+
+
     <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
         <a href="index.html">
-
           <img src="img/projects/logo.png" class="logo" alt="logo">
-
         </a>
-
       <nav>
-
-
         <ul class="navigation">
-
-
           <li><a href="index.html">Projects</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#contact" target="_self">Contact</a></li>
+          <li><a href="#contact" onclick="menuToggle()" target="_self">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
         </ul>
-
       </nav>
+    </div>
   </div>
   </header>
 
@@ -109,7 +108,7 @@
                 How to engage businesses in posting their offers on our platform?</p>
             </div>
             <!--column 2 ends-->
-<div class="col-md-4">
+<div class="col-md-4 col-sm-12">
             <div class="forecast-logo">
               <!--column 2 logo-->
 
@@ -236,10 +235,10 @@
 
         <!--Title for the whole section-->
         <h2>Process</h2>
-        <div>
+
           <!--Wrapper Section 3 Research-->
 
-          <div class="row">
+
             <!--row 1-->
 
             <h1>01</h1>
@@ -247,13 +246,13 @@
             <!--big number within column 1 ends-->
             <!--column 2 -->
             <h3>Research</h3>
-          </div>
+
           <!--row 1 ends-->
 
 
           <div class="row">
             <!--row2-->
-            <div class="col-md-6 col-lg-7">
+            <div class="col-md-6 col-lg-7 col-sm-12">
               <!--column 1 picture-->
               <picture>
                 <source srcset="img/forecast/forecast_4@1x.png" media="(max-width:767px)">
@@ -305,7 +304,7 @@
           </div>
           <!--row3 ends-->
 
-        </div>
+
         <!--wrapper Section 3 - research ends-->
 
 
@@ -719,6 +718,8 @@
       <div class="row">
         <a href="mailto:adrianafowler80@gmail.com" class="button contact">Email me</a>
       </div>
+
+
       <div class="social-icons">
         <!--social-->
         <a href="https://www.linkedin.com/in/adriana-fowler/" target="_blank">

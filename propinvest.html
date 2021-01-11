@@ -4,37 +4,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PropInvest</title>
+  <title>Propinvest</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" >
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" type="image/png" href="img/favicons/favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/93f2d3b725.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="propinvest">
+
   <header>
 
+
+
     <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
         <a href="index.html">
-
           <img src="img/projects/logo.png" class="logo" alt="logo">
-
         </a>
-
       <nav>
-
-
         <ul class="navigation">
-
-
           <li><a href="index.html">Projects</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#contact" target="_self">Contact</a></li>
+          <li><a href="#contact" onclick="menuToggle()" target="_self">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
         </ul>
-
       </nav>
+    </div>
   </div>
   </header>
 
@@ -615,6 +614,11 @@ The main challenge was time management. It took me three months to complete a pr
     </div>
     <!--wrapper ends-->
   </footer>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

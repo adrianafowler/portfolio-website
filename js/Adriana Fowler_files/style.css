@@ -360,45 +360,43 @@ nav>ul>li>a:active {
   color: rgba(350, 350, 350, 0.8);
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.navtoggle.responsive nav {
+  padding: 10px 0 10px 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  text-align: center;
+  border-top: 0.2px solid rgba(235, 166, 1, 0.1);
+  padding: 10px 0;
+  color: #fff;
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
 
 #myNavtoggle i {
   color: #fff;
 }
 
 @media only screen and (max-width: 640px) {
-
-  .navtoggle li:not(:last-child) {
-    display: none;
-  }
-
-  .navtoggle, .navtoggle.responsive {
-    position: relative;
-  }
-
-  .navtoggle li .icon {
-    position: absolute;
-    right: 0;
-    top: 15px;
-    font-size: 20px;
-    padding-right: 10px;
-  }
-
-  .navtoggle.responsive nav {
-    padding: 10px 0 10px 0;
-  }
-
-  .navtoggle.responsive li {
-    display: block;
-    text-align: center;
-    border-top: 0.2px solid rgba(235, 166, 1, 0.1);
-    padding: 10px 0;
-    color: #fff;
-  }
-
-  .navtoggle.responsive li:last-child {
-    padding: 0 0 10px;
-  }
   .navtoggle li:not(:last-child) {
     display: none;
   }
@@ -525,9 +523,9 @@ nav>ul>li>a:active {
     width: 100%;
   }
 
-/*  .navtoggle li:not(:last-child) {
+  .navtoggle li:not(:last-child) {
     display: inline-block;
-  }*/
+  }
 
   .navtoggle li:last-child {
     display: none;

@@ -45,13 +45,13 @@ h2 {
 
 h3 {
   font-family: 'Pt Sans Narrow', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1.75em;
 }
 
 h4 {
   font-family: 'Pt Sans Narrow', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1.35em;
 }
 
@@ -207,7 +207,7 @@ a:focus {
   max-width: 100%;
   width: 300px;
   height: auto;
-  margin-top: 56px
+  margin-top: 86px
 }
 }
 
@@ -221,10 +221,12 @@ a:focus {
 }
 
 #strap {
-  padding: 15px 0;
+
   text-align: center;
   color: rgb(235, 166, 1);
+  border-bottom: 1px solid rgb(235, 166, 1);
 }
+
 
 #strap ul {
   list-style-type: none;
@@ -240,7 +242,7 @@ a:focus {
 
 #strap h3 {
   margin: 2px;
-  font-size: 36px
+  font-size: 36px;
 }
 
 #strap span {
@@ -264,6 +266,9 @@ a:focus {
 
 #forecast header {
   top: 0px;
+}
+#forecast h3 {
+  margin-left: 0px;
 }
 
 #propinvestIntro {
@@ -384,6 +389,7 @@ nav>ul>li>a:active {
     padding-right: 10px;
   }
 
+
   .navtoggle.responsive nav {
     padding: 10px 0 10px 0;
   }
@@ -445,7 +451,13 @@ nav>ul>li>a:active {
     list-style-type: none;
     padding-left: 0px
   }
+  #about h4 {
+    margin-left: 0px;
 }
+}
+
+
+
 
 @media only screen and (min-width: 641px) {
   [class*="col-"] {

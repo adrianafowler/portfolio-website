@@ -11,6 +11,12 @@ buttons: rgb(68,85,98)
   box-sizing: border-box;
 }
 
+
+
+img:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 body {
   background-color: #FFFFFF;
   font-family:
@@ -132,7 +138,13 @@ a:focus {
 
 .projects .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #4a4a4a;
+  border-bottom: 1px solid rgba(30,58,80,0.5);
+}
+.signature {
+font-family: 'Caveat', cursive;
+font-size: 42px;
+color: rgb(235,166,1);
+margin-top: 0px;
 }
 
 #hero {
@@ -143,9 +155,10 @@ a:focus {
   /* Do not repeat the image */
   background-size: cover;
   background-color: rgb(350, 350, 350);
-  padding: 137px 0px;
+  padding: 290px 0px 100px;
   display: inline-block;
   width: 100%;
+
 }
 
 #hero .box {
@@ -155,20 +168,27 @@ a:focus {
 
 #hero h1 {
   font-family: 'Pt Sans Narrow', sans-serif;
-  font-weight: 400;
+
   text-align: center;
   margin: 0;
   padding: 0.67em 0;
+
 }
 
 #hero p {
-  text-align: left;
-  font-weight: 700px;
+  text-align: center;
+  font-weight: 400px;
+  color: rgb(30,58,80);
+  font-size:18px;
+  margin-top:0px;
+  font-family: 'Pt Sans', sans-serif;
+
 }
 
 #hero span {
   display: block;
   font-size: 24px;
+
 }
 
 #hero .box .container p {
@@ -198,18 +218,18 @@ a:focus {
   font-family: 'Pt Sans Narrow', sans-serif;
 }
 
-#about .profileImg {
-  width: 200px;
-  height: auto;
-}
 
+#about footer h4 {
+  margin-left: 0px;
+}
 .profileImg {
   max-width: 100%;
-  width: 300px;
+  width: 250px;
   height: auto;
   margin-top: 86px
+
 }
-}
+
 
 #process h1 {
   display: inline-block;
@@ -457,12 +477,33 @@ nav>ul>li>a:active {
 }
 
 
+@media only screen and (max-width: 1023px) {
 
+  .col-md-12 {
+    width: 100%;
+  }
+
+  #about h1{
+    text-align: center;
+
+  }
+
+  .center-container-medium {
+    text-align: center;
+    float: none;
+  }
+  #about .profileImg {
+    text-align: center;
+  }
+
+
+}
 
 @media only screen and (min-width: 641px) {
   [class*="col-"] {
     padding-right: 40px;
   }
+
 
   .col-md-4 {
     width: 33.33%;
@@ -472,8 +513,15 @@ nav>ul>li>a:active {
     width: 50%;
   }
 
+  #about p {
+    margin-left: 0px;
+  }
+
   #about .col-md-4 {
     text-align: left;
+  }
+  #about .row { margin-top: 40px;
+
   }
 
   header {
@@ -554,9 +602,23 @@ nav>ul>li>a:active {
   .col-lg-5 {
     width: 42%;
   }
+  .col-lg-4 {
+    width: 33%;
+  }
 
   body {
     font-size: 1.1em;
+  }
+  #about .profileImg {
+    margin-top: 170px;
+    margin-right: 0px;
+    width: 250px;
+    height: auto;
+  }
+
+  #about h1{
+    text-align: left;
+
   }
 }
 
@@ -687,8 +749,9 @@ nav>ul>li>a:active {
 .about-columns {
   width: 75%;
   margin: 0 auto;
+
   font-family: 'Pt Sans Regular 400', sans-serif;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .forecast-logo {
@@ -699,4 +762,10 @@ nav>ul>li>a:active {
   margin-top: 70px;
   width: 70%;
   height: auto;
+}
+.add-bottom-border {
+  border-bottom: 0.3px solid rgba(235, 166, 1, 0.4);
+}
+.add-top-border {
+  border-top: 0.5px solid rgba(235, 166, 1, 0.4);
 }

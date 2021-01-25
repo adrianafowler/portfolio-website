@@ -17,11 +17,17 @@ img {
   transition: transform 0.25s ease;
   cursor: zoom-in;
 }
+
 img:active {
  -webkit-transform: scale(1.3);
  transform: scale(1.3);
  cursor: zoom-out;
 }
+.zoom-more:active {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+  cursor: zoom-out;
+  }
 
 body {
   background-color: #FFFFFF;

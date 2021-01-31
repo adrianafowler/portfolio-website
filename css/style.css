@@ -27,6 +27,9 @@ img:active {
   transform: scale(1.4);
   cursor: zoom-out;
 }*/
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: #FFFFFF;
@@ -769,4 +772,9 @@ nav>ul>li>a:active {
 
 .add-top-border {
   border-top: 0.5px solid rgba(235, 166, 1, 0.4);
+}
+
+.inactive {
+  pointer-events: none;
+  background: grey;
 }

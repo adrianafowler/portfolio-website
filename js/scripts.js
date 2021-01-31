@@ -1,4 +1,4 @@
-console.log("Hi, thank you for checking my portfolio!")
+console.log('Hi, thank you for checking my portfolio!'')
 
 function menuToggle() {
   var x = document.getElementById('myNavtoggle');
@@ -8,4 +8,3 @@ function menuToggle() {
     x.className = 'navtoggle';
   }
 }
-

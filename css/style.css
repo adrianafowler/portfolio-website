@@ -158,6 +158,23 @@ color: rgb(255,255,255);
   border-bottom: 1px solid rgba(30, 58, 80, 0.5);
 }
 
+.parallax {
+  background-image: url('../img/projects/drawing.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-curtain {
+  height:100%;
+  background: rgba(239,244,238,0.85);
+  padding-top: 50px;
+
+}
+.add-padding {
+  padding-top: 20px;
+}
+
 .signature {
   font-family: 'Caveat', cursive;
   font-size: 42px;
@@ -773,7 +790,6 @@ nav>ul>li>a:active {
 .add-top-border {
   border-top: 0.5px solid rgba(235, 166, 1, 0.4);
 }
-
 .inactive {
   pointer-events: none;
   background: grey;

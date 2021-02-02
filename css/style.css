@@ -219,11 +219,13 @@ color: rgb(255,255,255);
   font-size: 24px;
 }
 
-#hero .box .container p {
+#hero .container p {
   margin-left: 1em;
   text-align: center;
 }
-
+#section02 .container {
+  padding-top: 30px
+}
 #contact {
   text-align: center;
   font-family: 'Pt Sans Narrow', sans-serif;
@@ -699,12 +701,12 @@ nav>ul>li>a:active {
   }
 
   to {
-    transform: translate(200px, 50px);
+    transform: translate(50px, 50px);
   }
 }
 
 .cloud-front {
-  animation-duration: 30s;
+  animation-duration: 5s;
   animation-name: cloud-move;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -713,7 +715,7 @@ nav>ul>li>a:active {
 
 @keyframes cloud-move-reverse {
   from {
-    transform: translate(446px, 48px);
+    transform: translate(10px, 48px);
   }
 
   to {
@@ -722,17 +724,22 @@ nav>ul>li>a:active {
 }
 
 .cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
+  animation:10s cloud-move-reverse infinite alternate linear;
 }
 
-/*.rotate {
+ @keyframes rotateobject {
+  transform: rotate(180deg);
+
+}
+ .rotate {
   animation-duration: 5s;
   animation-name: rotateobject;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
 
-}*/
+}
+
 .social-icons svg {
   width: 40px;
   height: auto;
@@ -793,4 +800,10 @@ nav>ul>li>a:active {
 .inactive {
   pointer-events: none;
   background: grey;
+}
+
+
+.scroll-down-icon {
+  font-size: 150%;
+  color: rgb(28,51,69);
 }

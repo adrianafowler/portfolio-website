@@ -191,7 +191,7 @@ color: rgb(255,255,255);
   /* Do not repeat the image */
   background-size: cover;
   background-color: rgb(255,255,255);
-  padding: 290px 0px 100px;
+  padding: 300px 0px 100px;
   display: inline-block;
   width: 100%;
 }
@@ -201,7 +201,7 @@ color: rgb(255,255,255);
 #hero h1 {
   font-family: 'Pt Sans Narrow', sans-serif;
   text-align: center;
-  margin: 0;
+  margin: 0px;
   padding: 0.67em 0;
 }
 
@@ -349,6 +349,7 @@ color: rgb(255,255,255);
 #flashcards .flashcardsIntro h1 {
   margin-bottom: 0;
 }
+
 
 picture {
   width: 100%;
@@ -727,7 +728,7 @@ nav>ul>li>a:active {
   animation:10s cloud-move-reverse infinite alternate linear;
 }
 
- @keyframes rotateobject {
+ /*@keyframes rotateobject {
   transform: rotate(180deg);
 
 }
@@ -738,7 +739,7 @@ nav>ul>li>a:active {
   animation-direction: alternate;
   animation-timing-function: linear;
 
-}
+}*/
 
 .social-icons svg {
   width: 40px;
@@ -803,7 +804,36 @@ nav>ul>li>a:active {
 }
 
 
+
+
+@keyframes icon-move {
+  from {
+    transform: translate(0, 0px);
+  }
+
+  to {
+    transform: translate(0px, 50px);
+  }
+}
+
 .scroll-down-icon {
-  font-size: 150%;
+  font-size: 2em;
   color: rgb(28,51,69);
+  transition-property: translate;
+  animation-duration: 1s;
+  animation-name: icon-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+.scroll-down-icon:hover {
+  color: rgba(28,51,69,0.5);
+
+}
+
+
+
+
+.freepik-link a{
+  color: rgba(30,58,80,0.7);
 }

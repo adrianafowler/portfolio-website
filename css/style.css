@@ -820,7 +820,7 @@ nav>ul>li>a:active {
   font-size: 2em;
   color: rgb(28,51,69);
   transition-property: translate;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-name: icon-move;
   animation-iteration-count: infinite;
   animation-direction: alternate;

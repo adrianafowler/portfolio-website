@@ -191,7 +191,7 @@ color: rgb(255,255,255);
   /* Do not repeat the image */
   background-size: cover;
   background-color: rgb(255,255,255);
-  padding: 300px 0px 100px;
+  padding: 350px 0px 100px;
   display: inline-block;
   width: 100%;
 }
@@ -203,7 +203,47 @@ color: rgb(255,255,255);
   text-align: center;
   margin: 0px;
   padding: 0.67em 0;
+
+  animation-duration: 3s;
+  animation-name: title-move-right;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
 }
+
+@keyframes title-move-right {
+0% {
+    opacity:0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(-10px);
+
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes title-move-left {
+0% {
+    opacity:0;
+    transform: translateX(100px);
+  }
+  80% {
+      transform: translateX(10px);
+
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+
 
 #hero p {
   text-align: center;
@@ -212,6 +252,14 @@ color: rgb(255,255,255);
   font-size: 18px;
   margin-top: 0px;
   font-family: 'Pt Sans', sans-serif;
+
+  animation-duration: 3s;
+  animation-name: title-move-left;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+
 }
 
 #hero span {
@@ -256,8 +304,20 @@ color: rgb(255,255,255);
   max-width: 100%;
   width: 250px;
   height: auto;
-  margin-top: 86px
+  margin-top: 86px;
+
+  animation-duration: 3s;
+  animation-name: rotate-me;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  }
+
+@keyframes rotate-me {
+  50% {transform: rotate(180deg);}
 }
+
 
 #process h1 {
   display: inline-block;
@@ -336,8 +396,8 @@ color: rgb(255,255,255);
   margin-top: 86px;
 }
 
-#flashcards .flashcardsIntro p {
-  font-size: 21px;
+ .flashcardsIntro p {
+  font-size: 18px;
 }
 
 #flashcards .flashcardsIntro span {
@@ -508,6 +568,13 @@ nav>ul>li>a:active {
   #about h4 {
     margin-left: 0px;
   }
+
+
+  #hero{
+    padding-top: 250px;
+  }
+
+
 }
 
 @media only screen and (max-width: 1023px) {
@@ -812,7 +879,7 @@ nav>ul>li>a:active {
   }
 
   to {
-    transform: translate(0px, 50px);
+    transform: translate(0px, 20px);
   }
 }
 

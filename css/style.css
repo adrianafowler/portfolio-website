@@ -316,17 +316,7 @@ color: rgb(255,255,255);
   height: auto;
   margin-top: 86px;
 
-  /*animation-duration: 3s;
-  animation-name: rotate-me;
-  animation-iteration-count: 1;
-  animation-direction: alternate;
-  animation-timing-function: ease-out;
-  animation-delay: 0s;
-  }
 
-@keyframes rotate-me {
-  50% {transform: rotate(180deg);}
-*/
 }
 #frontend span{ 
   font-size: 0.8em;

@@ -181,6 +181,16 @@ color: rgb(255,255,255);
   padding-top: 50px;
 
 }
+
+#about .parallax {
+  background-image: url('../img/projects/drawing2.png');
+  
+}
+#about .parallax-curtain
+{
+    background: rgba(255,255,255,0.85);
+  
+}
 .center-container {
   padding-top: 20px;
 }
@@ -626,7 +636,7 @@ nav>ul>li>a:active {
   }
 
   #about .row {
-    margin-top: 40px;
+    margin-top: 0px;
   }
 
   header {
@@ -912,4 +922,7 @@ nav>ul>li>a:active {
 
 .freepik-link a{
   color: rgba(30,58,80,0.7);
+}
+.loose-right-padding {
+  padding-right: 0px;
 }

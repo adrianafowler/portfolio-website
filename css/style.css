@@ -373,7 +373,8 @@ color: rgb(255,255,255);
 }
 
 #forecastintro {
-  margin-top: 64px;
+  margin-top: 0px;
+  padding-top: 60px;
 }
 
 #forecastintro span {

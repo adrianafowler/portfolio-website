@@ -178,7 +178,7 @@ color: rgb(255,255,255);
 .parallax-curtain {
   height:100%;
   background: rgba(239,244,238,0.85);
-  padding-top: 50px;
+  padding-top: 0px;
 
 }
 
@@ -189,6 +189,7 @@ color: rgb(255,255,255);
 #about .parallax-curtain
 {
     background: rgba(255,255,255,0.85);
+    padding-top: 70px
   
 }
 .center-container {

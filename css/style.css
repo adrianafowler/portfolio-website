@@ -928,3 +928,8 @@ nav>ul>li>a:active {
 .loose-right-padding {
   padding-right: 0px;
 }
+#contact .photography {
+ color: rgb(227,120,23);
+ font-family: 'Pt Sans', sans-serif;
+ font-weight: 400;
+}

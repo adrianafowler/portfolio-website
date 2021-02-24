@@ -175,6 +175,14 @@ color: rgb(255,255,255);
   background-repeat: no-repeat;
   background-size: cover;
 }
+.parallaxPropInvest {
+  background-image: url('../img/propInvest/propInvest_13@2x.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .parallax-curtain {
   height:100%;
   background: rgba(239,244,238,0.85);
@@ -216,6 +224,19 @@ color: rgb(255,255,255);
   display: inline-block;
   width: 100%;
 }
+#propInvest {
+  background-image: url('../img/propInvest/propInvest_13@2x.png');
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  background-color: rgb(255,255,255);
+  padding: 350px 0px 100px;
+  display: inline-block;
+  width: 100%;
+}
+  
 
 
 
@@ -438,6 +459,7 @@ picture {
 .container {
   padding: 0 15px;
 }
+
 
 .row {
   margin: 25px 0;

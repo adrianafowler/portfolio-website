@@ -847,9 +847,10 @@ nav>ul>li>a:active {
 }
 
 .logo {
-  width: 150px;
+  padding-top: 10px;
+  width: 200px;
   height: auto;
-  max-width: 150px;
+  max-width: 200px;
 }
 
 .center-me {

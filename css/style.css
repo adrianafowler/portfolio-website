@@ -35,7 +35,7 @@ img:active {
   transform: none;
   cursor: pointer;
 }
-  
+
 html {
   scroll-behavior: smooth;
 }
@@ -192,13 +192,13 @@ color: rgb(255,255,255);
 
 #about .parallax {
   background-image: url('../img/projects/drawing2.png');
-  
+
 }
 #about .parallax-curtain
 {
     background: rgba(255,255,255,0.85);
     padding-top: 70px
-  
+
 }
 .center-container {
   padding-top: 20px;
@@ -236,7 +236,7 @@ color: rgb(255,255,255);
   display: inline-block;
   width: 100%;
 }
-  
+
 
 
 
@@ -350,13 +350,13 @@ color: rgb(255,255,255);
 
 
 }
-#frontend span{ 
+#frontend span{
   font-size: 0.8em;
 }
 #frontend h2 {
   padding-top: 60px;
 }
-  
+
 #process h1 {
   display: inline-block;
 }
@@ -615,6 +615,12 @@ nav>ul>li>a:active {
   }
 
 
+    #about .parallax-curtain {
+      padding-top: 10px;
+
+  }
+
+
 }
 
 @media only screen and (max-width: 1023px) {
@@ -633,6 +639,12 @@ nav>ul>li>a:active {
 
   #about .profileImg {
     text-align: center;
+  }
+  .profileImg {
+
+    margin-top: 10px;
+
+
   }
 }
 
@@ -673,7 +685,7 @@ nav>ul>li>a:active {
     width: auto;
     float: right;
     margin-top: 4px;
-  
+
   }
 
   nav>ul {

@@ -965,3 +965,8 @@ nav>ul>li>a:active {
  font-family: 'Pt Sans', sans-serif;
  font-weight: 400;
 }
+
+  #forecast .add-yellow-background {
+  background-color: rgb(235,166,1);
+  
+}

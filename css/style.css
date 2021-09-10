@@ -1097,7 +1097,7 @@ html {
 }
 @media only screen and (max-width: 640px) {
   .testimonial-box {
-     width: 460px;
+     width: 300px;
   }
   
 }
